@@ -1,0 +1,1 @@
+c++ $(find src -name '*.cpp') -o app.exe

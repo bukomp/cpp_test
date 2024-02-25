@@ -1,0 +1,7 @@
+*.o
+*.exe
+*.out
+debug/
+release/
+*.log
+*.h.gch

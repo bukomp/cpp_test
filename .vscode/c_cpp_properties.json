@@ -1,0 +1,51 @@
+{
+    "configurations": [
+        {
+            "name": "windows-gcc-x86",
+            "includePath": [
+                "r:/Projects/cpp_test/**"
+            ],
+            "compilerPath": "R:/msys64/ucrt64/bin/gcc.exe",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerArgs": [
+                ""
+            ],
+            "compilerPathInCppPropertiesJson": "R:/MinGW/bin/gcc.exe",
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "r:/Projects/cpp_test/**",
+                    "r:/Projects/cpp_test"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "cStandard": "c23",
+            "cppStandard": "c++23"
+        },
+        {
+            "name": "windows-g++-x86",
+            "includePath": [
+                "r:/Projects/cpp_test/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "R:\\MinGW\\bin\\c++.exe",
+            "cStandard": "c23",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerPathInCppPropertiesJson": "R:\\MinGW\\bin\\g++.exe",
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "r:/Projects/cpp_test/**",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
